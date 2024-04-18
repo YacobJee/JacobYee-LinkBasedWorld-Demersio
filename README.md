@@ -1,3 +1,5 @@
+Code and assignment created by Adam Smith, used in CMPM 120 class student, Jacob Yee
+
 # StoryGraphTool
 
 An exercise in building data-driven game design
