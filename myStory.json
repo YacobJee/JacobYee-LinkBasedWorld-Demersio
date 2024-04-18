@@ -1,0 +1,150 @@
+{
+    "Title": "Demersio",
+    "Credits": "Jacob Yee (jaryee@ucsc.edu).",
+    "NIHIL": "All with be swallowed by the Abyss.",
+    "HOPE": "You hold on to hope, despite the enroaching Abyss. Be brave, march on.",
+    "InitialLocation": "Surface",
+    "Locations": {
+        "Surface": {
+            "Body": "This is the surface of the upper world. There is no need for panic. Just live in deep blissful ignorance.",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Break"
+                }
+            ]
+        },
+        "Break": {
+            "Body": "You feel something, inching from the tip of your toes to your knees, like you've suddenly stepped in a puddle.",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Submerge"
+                },
+                {
+                    "Text": "Ascend",
+                    "Target": "Surface"
+                }
+            ]
+        },
+        "Submerge": {
+            "Body": "That feeling creeps up to just below your neck. It won't be long before your head is submerged. The ground feels unsteady, like you're wading through viscous waters.",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Falling"
+                },
+                {
+                    "Text": "Ascend",
+                    "Target": "Break"
+                }
+            ]
+        },
+        "Falling": {
+            "Body": "You're sinking now. It's difficult to control yourself as you find yourself plummeting downwards. It's not too late to turn back.",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Deeper"
+                },
+                {
+                    "Text": "Ascend",
+                    "Target": "Submerge"
+                }
+            ]
+        },
+        "Deeper": {
+            "Body": "It feels like you're drowning, and there's no going back now. Breathing has become near impossible, and you feel yourself begin to panic. It's all enveloping. Vision is beginning to swim. Dark thoughts begin to fill your mind, distracting you from the uncomfortable sensation with entirely new unsettling emotions.",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Yet Deeper"
+                },
+                {
+                    "Text": "Reflect on Darker thoughts",
+                    "Target": "Reflection1"
+                }
+            ]
+        },
+        "Reflection1": {
+            "Body": "As you sink ever deeper, your mind begins to wander. It's almost like your memories are being parsed the more you sink in this Abyss. All motivation to escape, to sink deeper, all of it evaporates, leaving you listless and empty. It's not like this is the first time you've felt this way, sometimes the act of living feels like a pain, and you find yourself simply on autopilot through the act of living. Is there even a point of anything anymore?",
+            "Choices": [
+                {
+                    "Text": "NIHIL",
+                    "Target": "Yet Deeper"
+                },
+                {
+                    "Text": "Hold on to Hope",
+                    "Target": "Yet Deeper"
+                }
+
+            ]
+        },
+        "Yet Deeper": {
+            "Body": "You wonder if sleeping would just end everything quicker, but no, you find that even drifitng into sweet unconciousness is not possible...Not when it still feels like you're drowning",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Approach"
+                },
+                {
+                    "Text": "Reflect on Darker thoughts",
+                    "Target": "Reflection2"
+                }
+            ]
+        },
+        "Reflection2": {
+            "Body": "More of that horible feeling creeps into your soul. It awakens doubt in your heart...and intense self loathing. Have you really made the correct decisions up until now? Will anything you do truly amount to anything? In the end, no individual truly matters to the world. Even those in a much higher standing than yourself will eventually fade away into obscurity once eneough time has passed. That is just how life is. All anyone amounts to is a single grain of sand on a vast beach.",
+            "Choices": [
+                {
+                    "Text": "NIHIL",
+                    "Target": "Approach"
+                },
+                {
+                    "Text": "Hold on to Hope",
+                    "Target": "Approach"
+                }
+
+            ]
+        },
+        "Approach": {
+            "Body": "The world is turning black. Emotions are beginning to fade, like your conciousness. All is being rendered meaningless in this place. It's almost there.",
+            "Choices": [
+                {
+                    "Text": "Fall",
+                    "Target": "Abyss"
+                },
+                {
+                    "Text": "Reflect on Darker thoughts",
+                    "Target": "Reflection3"
+                }
+            ]
+        },
+        "Reflection3": {
+            "Body": "It's getting darker...It brings up the thought of the end within your mind. What lies once we expire? What awaits you once then end has come? What happens to the ones we grieved for once they're buried or cremated? Is it emptiness, just like now? Painful?? Who is to say? Will anyone truly feel sad for you once you pass? Or will they just move on with their life, empty and void? They're not obligated to grieve, after all.",
+            "Choices": [
+                {
+                    "Text": "NIHIL",
+                    "Target": "Abyss"
+                },
+                {
+                    "Text": "Hold on to Hope",
+                    "Target": "Abyss"
+                }
+
+            ]
+        },
+        "Abyss": {
+            "Body": "The end is here. All is NIHIL. All is dark within nothingness. The empty world no longer has any will for you to continue. So why not just lay down already. There is no where left to go. Welcome to the ABYSS.",
+            "Lock":  [
+                {
+                    "Text": "Rise",
+                    "Target": "Rise"
+                }
+            ]    
+        },
+        "Rise": {
+            "Body": "...Sure, the world isn't sunshine and rainbows, and sometimes it's easier to fall into apathy to shield yourself, but that's no excuse to just give up. It's hard, it always will be, but that's just life. Even if the abyss is dark and suffocating, there's no harm in continuing on. Be brave, march on to the end. Even if the hope you hold to still feels its presence...So go. Rise up to the surface. Even if it's all NIHIL."
+        }
+    }   
+}
